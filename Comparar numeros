@@ -11,10 +11,10 @@ public class Program
 	z = int.Parse(vet[2]);
 		
 	
+	int maior = Math.Max(x, Math.Max(y,z));
 	int menor = Math.Min(x, Math.Min(y,z));
-	
+		Console.WriteLine("Maior = " + maior);
 		Console.WriteLine("Menor = " + menor);
-	
 	}
 	
 }
