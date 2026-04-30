@@ -1,0 +1,28 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+	{
+		double N1, N2, Final;
+		
+		Console.WriteLine("Primeira nota");
+		N1 = double.Parse(Console.ReadLine());
+		
+		Console.WriteLine("Segunda Nota");
+		N2 = double.Parse(Console.ReadLine());
+		
+		Final = N1 + N2;
+		
+		if (Final > 60)
+		{ 
+			Console.WriteLine("Sua Nota Final é "+ Final + "\nAprovado");
+		 }
+		
+		else if (Final < 60)
+		{
+			Console.WriteLine("Sua nota final é " + Final + "\nReprovado");
+		}
+		
+	}
+}
